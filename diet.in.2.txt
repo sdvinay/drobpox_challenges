@@ -1,0 +1,20 @@
+17
+free-lunch 802
+mixed-nuts 421
+orange-juice 143
+heavy-ddr-session -302
+cheese-snacks 137
+cookies 316
+mexican-coke 150
+dropballers-basketball -611
+coding-six-hours -466
+riding-scooter -42
+rock-band -195
+playing-drums -295
+regular-coke 120
+popcorn 130
+run-a-mile -165
+skip-rope -220
+P90X -1200
+subway-footlong 780
+
