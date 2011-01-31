@@ -1,6 +1,6 @@
 # vim swap files
-*.swp
-.*.swp
+*.sw*
+.*.sw*
 
 # built files
 *.hi
