@@ -16,10 +16,7 @@ import random
 def matchGenerator(activityCalories) : 
 	numItems = len(activityCalories)
 	for i in range(2, 2**numItems):
-		calTotal = 0
-		for digit in range (0, numItems):
-			mask = 2**digit
-			if (mask & i): calTotal += activityCalories[digit]
+		calTotal = sum (map (lambda digit: ((2**digit)&i) and activityCalories[digit], range(0, numItems)))
 		if calTotal == 0:
 			yield i
 
