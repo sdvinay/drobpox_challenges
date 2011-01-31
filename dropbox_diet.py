@@ -39,6 +39,10 @@ def doIteration (lines, numItems) :
 
 	random.shuffle(lines)
 
+# the following line sorts the items by absolute value of calories
+# comment/uncomment it to disable/enable sorting
+	lines = sorted(lines[0:numItems], key=lambda line: abs(int(line.split(" ")[1])))
+
 	for i in range (0, numItems):
 		line = lines[i]
 		(name, dummy, calories) = line.partition(" ")

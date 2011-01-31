@@ -15,4 +15,8 @@ popcorn 130
 run-a-mile -165
 skip-rope -220
 P90X -1200
-subway-footlong 780
+subway-footlong 777
+run-a-5k -600
+tortilla-chips 215
+string-cheese 80
+lift-weights -476
